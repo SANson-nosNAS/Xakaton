@@ -1,0 +1,430 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(98,184,186);
+}
+
+.container-color {
+    background-color: rgb(98,184,186);
+}
+
+.container-header {
+    max-width: 80%;
+    margin: auto;
+}
+
+.header-icon-dolphin {
+    height: 110px;
+
+}
+
+.header-icon-search {
+    height: 90px;
+    margin-top: 5px;
+
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-info {
+    align-items: center;
+}
+
+.name-site {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.image-container-quote {
+    background-image: url(https://cdn.discordapp.com/attachments/723617542899367968/1136264909471105024/1200_62d96eac82682c060885dd87_1.jpg);
+    margin-bottom: 100px;
+    height: 600px;
+}
+
+.shadow {
+    height: 600px;
+    width: 100%;
+}
+
+.image-container-quote-text {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    margin-top: -500px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container-slider {
+    margin-top: 20000px;
+    max-width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.container-slider-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-slider-info-element {
+    width: 85%;
+    transition: 1s; 
+    display: block;
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.container-slider-info-element-text {
+    color: white;
+    margin-top: -27px;
+    text-align: center;
+}
+
+.container-slider-info-element-text-long {
+    color: white;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.img-div-body {
+    display: inline-block; 
+    overflow: hidden; 
+    margin-top: 1%;
+}
+
+.container-slider-info-element:hover {
+    transform: scale(1.2); 
+}
+
+.container-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: rgb(98,184,186);
+    margin-bottom: 100px;
+}
+
+.container-news-element-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.container-news-element-second-div-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-image: url(https://imgtest.mir24.tv/uploaded/images/crops/2021/June/870x489_0x2_detail_crop_20210612132829_a74324fc_f0e095386d6be36fdb2a9242b3edf1259efc263e35a9c8b56de93625c7c4cf26.jpg);
+    padding: 1%;
+}
+
+.container-news-element-second-div-image-a {
+    text-align: right;
+    color: white;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 5px 15px;
+    transition: 0.3s;
+}
+
+.container-news-element-second-div-image-a:hover {
+    background-size: 100% 100%; /* Отображаем градиент */
+}
+
+
+
+.container-div-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-div-first {
+    width: 70%;
+    margin-right: 3%;
+}
+
+.container-news-element-2 {
+    width: 30%;
+}
+
+.container-news-element-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-news-element-second-div-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.data {
+    font-size: 9px;
+}
+
+.container-news-element-second-div-news-a {
+    margin-top: -5px;
+}
+
+.container-news-element-second-div-news-item {
+    margin-left: 1%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 5%;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    flex-direction: row;
+
+}
+
+.dropdown:hover .dropdown-content {display: flex;}
+
+.button-search {
+    margin-top: 92%;
+    background-color: rgb(98,184,186);
+    color: white;
+    border-radius: 15px;
+    margin-right: 2%;
+}
+
+.input-search {
+    border-radius: 15px;
+}
+
+.dropdown-content-1 {
+    margin-right: 2%;
+}
+
+.container-div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(98,184,186);
+    color: white;
+    padding: 0.3% 2.3%;
+}
+
+.container-div-2-2 {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(98,184,186);
+    color: white;
+    padding: 0.3% 2.3%;
+    margin-bottom: 80px;
+}
+
+.link-personal-site {
+    color: white;
+    margin-top: -1.5%;
+}
+
+.navigation {
+    right: 0;
+    margin-top: 250px;
+    position: fixed;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGKMmV0BdmHM7F4cQhFwfKgy7JUR0xLR53w&usqp=CAU);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+    border-radius: 15px;
+    font-style: italic;
+
+}
+
+.navigation-container {
+    color: white;
+}
+
+.shadow-text{
+    margin-top: 5px;
+    color: white;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+.shadow-text:hover{
+
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+}
+
+.headline-slider {
+    color: rgb(98,184,186);
+    width: 80%;
+    margin-left: 10%;
+}
+
+.mainSlider {
+    position: relative;
+    width: 80%;
+    height: calc(100vw / 16 * 7);
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2%;
+    margin-top: 25%;
+    position: relative;
+}
+
+.button_replace {
+    border-radius: 90px;
+    color: white;
+    background-color: rgb(98,184,186);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.slide-img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 1.8s ease-in-out;
+}
+
+.slide-img:first-child {
+    opacity: 1;
+}
+
+.name-place {
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin-top: 50%;
+    font-size: 26px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(98,184,186);
+    color: white;
+    padding: 3% 10%;
+}
+
+.rotate {
+    transform: rotate(180deg); 
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.logo-img:last-child {
+    height: 80px;
+    margin-top: -15px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-footer {
+    color: white;
+    margin-left: 1%;
+    font-weight: 900;
+}
+
+.scroll-up {
+    padding: 1% 0%;
+    background-image: url('https://phonoteka.org/uploads/posts/2022-02/1645063459_1-phonoteka-org-p-fon-dno-okeana-1.jpg');
+}
+
+.scroll {
+    height: 40px;
+    margin-left: 48%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+    .container-div-2 {
+        display: none;
+    }
+
+    .container-div-2-2 {
+        display: flex;
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    .container-div-first {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container-news-element-second-div-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-img {
+        height: 30px;
+        margin-top: 13%;
+    }
+
+    .logo-img:last-child {
+        height: 50px;
+        margin-top: -15px;
+        margin-top: 14%;
+    }
+}
